@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noticia {
+    margin: 2rem 10rem;
+    list-style: none;
+}
+
+.n_heading {
+    margin: 1rem 0;
+    font-size: 2.8rem;
+}
+
+.n_image {
+    width: 900px;
+    height: 600px;
+    border: 1px black solid;
+    float: right;
+    margin: 1rem;
+}
+
+.n_text {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.n_date {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1rem;
+}
