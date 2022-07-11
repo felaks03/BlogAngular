@@ -22,9 +22,15 @@ export class FormularioComponent implements OnInit {
       this.arrNoticias.push({id: this.id, titulo: this.titulo, contenido: this.contenido, imagen: this.imagen, fecha: this.fecha})
       this.ActResultado()
       this.id++;
-      
+    } else if(this.titulo === ""){
+      alert("Añada un titulo para publicar la noticia")
+    } else if(this.contenido === ""){
+      alert("Añada contenido para publicar la noticia")
+    } else if(this.imagen === ""){
+      alert("Añada una imagen para publicar la noticia")
+    } else if(this.fecha === 0){
+      alert("Añada una fecha para publicar la noticia")
     }
-    console.log(this.titulo, this.contenido, this.imagen, this.fecha)
   }
 
   CargarNoticiaInicial(){
