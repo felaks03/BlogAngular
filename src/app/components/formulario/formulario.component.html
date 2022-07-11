@@ -5,8 +5,8 @@
 <div class="form">
     <input class="f_titulo" type="text" placeholder="Introduce el titulo" [(ngModel)]="titulo">
     <textarea class="f_contenido" name="contenido" id="contenido" cols="30" rows="10"
-        placeholder="Escribe el contenido"></textarea>
+        placeholder="Escribe el contenido" [(ngModel)]="contenido"></textarea>
     <input class="f_imagen" type="url" placeholder="url" [(ngModel)]="imagen">
     <input class="f_fecha" type="date" placeholder="fecha de la noticia" [(ngModel)]="fecha">
-    <button class="f_button" (click)="GuardarNoticia()">Guardar</button>
+    <button class="f_button" (click)="GuardarNoticia()">Publicar</button>
 </div>
